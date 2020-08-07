@@ -54,6 +54,7 @@
       // Create an item element
       var item = document.createElement("div");
       item.classList.add("carousel-item");
+      i == 0 ? item.classList.add("active") : null;
       elCarousel.appendChild(item);
 
       // Add an image
